@@ -91,6 +91,9 @@ html p a:hover {
 	text-decoration: none;
 }
 
+.yellow {
+	background-color: yellow;
+}
 /*
 *
 * Typography
@@ -434,6 +437,10 @@ a[href*='tel'], a[href*='mailto'] {
 	margin-top: 18px;
 }
 
+.cursor-projects {
+	cursor: zoom-in;
+}
+
 .box-icon-modern-3 {
 	padding-top: 46px;
 	padding-bottom: 30px;
@@ -469,7 +476,17 @@ a[href*='tel'], a[href*='mailto'] {
 	z-index: 1;
 }
 
-.box-icon-modern-icon::after {
+.box-icon-modern-icon-black {
+	color: #000000;
+}
+
+.box-icon-modern-1:hover {
+	transition: all .3s ease;
+	-webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+.box-icon-modern-icon::after {		
 	position: absolute;
 	content: '';
 	left: 50%;
@@ -486,7 +503,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-icon-modern-title a, .box-icon-modern-title a:focus, .box-icon-modern-title a:active {
-	color: inherit;
+	color: #eb6e6e;
 }
 
 .box-icon-modern-title a:hover {
@@ -1118,6 +1135,7 @@ img {
 	font-style: normal;
 	speak: none;
 	text-transform: none;
+	cursor: zoom-in;
 }
 
 .icon-circle {
@@ -1422,7 +1440,7 @@ hr {
 
 .button-secondary, .button-secondary:focus {
 	color: #ffffff;
-	background-color: #eb6e6e;
+	background-color: unset;
 	border-color: #eb6e6e;
 }
 
@@ -6236,10 +6254,6 @@ h4 + .instafeed {
 	padding: 30px 0;
 }
 
-.section-sm.section-first {
-	padding-top: 60px;
-}
-
 .section-sm.section-last {
 	padding-bottom: 60px;
 }
@@ -6269,9 +6283,6 @@ html [class*='section-'].section-top-0 {
 	.section-sm {
 		padding: 40px 0;
 	}
-	.section-sm.section-first {
-		padding-top: 80px;
-	}
 	.section-sm.section-last {
 		padding-bottom: 80px;
 	}
@@ -6290,9 +6301,7 @@ html [class*='section-'].section-top-0 {
 	.section-sm {
 		padding: 50px 0;
 	}
-	.section-sm.section-first {
-		padding-top: 100px;
-	}
+
 	.section-sm.section-last {
 		padding-bottom: 100px;
 	}
@@ -8816,7 +8825,8 @@ html.tablet .ui-to-top {
 .rd-navbar-fixed .rd-navbar-panel {
 	color: #151515;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-	background: #ffffff;
+	background: yellow;
+	height: 75px;
 }
 
 .rd-navbar-fixed .rd-navbar-nav-wrap {
@@ -9303,6 +9313,7 @@ html.rd-navbar-fixed-linked .page {
 	position: relative;
 	padding-left: 15px;
 	padding-right: 15px;
+	background-color: yellow;
 }
 
 @media (min-width: 1600px) {
@@ -9372,7 +9383,6 @@ html.rd-navbar-fixed-linked .page {
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-nav {
 	order: -1;
-	margin-right: 46px;
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-brand img {
@@ -9540,7 +9550,7 @@ html.rd-navbar-fixed-linked .page {
 	width: 48px;
 	height: 48px;
 	top: 4px;
-	padding: 13px 6px 12px;
+	padding: 20px 6px 12px;
 }
 
 .rd-navbar-classic-2.rd-navbar-static .rd-nav-link::before {
@@ -9607,7 +9617,6 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-classic-project-content {
-	direction: rtl;
 	padding-left: 6px;
 	margin-left: -6px;
 	height: calc(100vh - 170px);

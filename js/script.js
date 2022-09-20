@@ -475,11 +475,11 @@
 			var regularConstraintsMessages = [
 				{
 					type: regula.Constraint.Required,
-					newMessage: "The text field is required."
+					newMessage: "Campo obrigatório"
 				},
 				{
 					type: regula.Constraint.Email,
-					newMessage: "The email is not a valid email."
+					newMessage: "Insira um e-mail válido"
 				},
 				{
 					type: regula.Constraint.Numeric,
