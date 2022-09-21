@@ -1041,6 +1041,9 @@ p + .list-custom {
 		display: inline-block;
 		margin-left: 20px;
 	}
+	.rd-nav-link-active {
+		padding-left: 15px;
+	}
 }
 
 @media (min-width: 992px) {
@@ -4237,6 +4240,7 @@ textarea.textarea-lg {
 .breadcrumbs-custom-path {
 	margin-left: -15px;
 	margin-right: -15px;
+	padding-top: 20px;
 	font-size: 18px;
 	line-height: 0.33;
 	font-weight: 500;
@@ -11611,6 +11615,7 @@ h1 + .tabs-line {
 
 .tabs-line-big * + .group-md {
 	margin-top: 36px;
+	margin-bottom: 20px;
 }
 
 .tabs-line-style-2 .nav-link {
