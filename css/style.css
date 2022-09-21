@@ -413,9 +413,14 @@ a[href*='tel'], a[href*='mailto'] {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 66px 15px 50px;
-	background: #ffffff;
-	box-shadow: 0 0 13px -4px rgba(0, 0, 0, 0.17);
 	transition: all .3s ease;
+}
+
+
+
+.box-icon-modern-1 {
+	padding-top: 2px;
+	padding-bottom: 5px;
 }
 
 .box-icon-modern-2 {
@@ -480,11 +485,24 @@ a[href*='tel'], a[href*='mailto'] {
 	color: #000000;
 }
 
-.box-icon-modern-1:hover {
+.box-icon-modern-icon-1 {
+	position: relative;
+	font-size: 47px;
+	line-height: 1;
+	color: inherit;
+	z-index: 1;
+}
+
+.box-icon-modern-icon-1-black {
+	color: #000000;
+}
+
+/* .box-icon-modern-1:hover {
 	transition: all .3s ease;
 	-webkit-transform: scale(1.1);
-   transform: scale(1.1);
-}
+   transform: translate3d(0, 0, 0) rotate(-16deg);
+   letter-spacing: 5px;
+} */
 
 .box-icon-modern-icon::after {		
 	position: absolute;
@@ -496,6 +514,19 @@ a[href*='tel'], a[href*='mailto'] {
 	border-style: solid;
 	border-width: 0 34.5px 60px 34.5px;
 	border-color: transparent transparent #72d5a5 transparent;
+	transform: translate3d(-50%, 0, 0) rotate(15deg);
+	transform-origin: 50% 80%;
+	transition: all .3s ease;
+	z-index: -1;
+}
+
+.box-icon-modern-icon-1::after {		
+	position: absolute;
+	content: '';
+	left: 50%;
+	bottom: 9px;
+	width: 0;
+	height: 0;
 	transform: translate3d(-50%, 0, 0) rotate(15deg);
 	transform-origin: 50% 80%;
 	transition: all .3s ease;
@@ -562,7 +593,7 @@ a[href*='tel'], a[href*='mailto'] {
 
 @media (min-width: 992px) {
 	.desktop .box-icon-modern:hover {
-		box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.17);
+		box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
 	}
 	.desktop .box-icon-modern:hover .box-icon-modern-icon:after {
 		transform: translate3d(-50%, 0, 0) rotate(0deg);
@@ -3820,7 +3851,7 @@ textarea.textarea-lg {
 	padding: 10px 15px;
 	min-width: 230px;
 	transform: translate3d(-50%, 0, 0);
-	background: #ffffff;
+	background: rgba(255, 255, 255, 0.8);
 	pointer-events: none;
 	transition: all .3s ease;
 }
@@ -4207,7 +4238,7 @@ textarea.textarea-lg {
 	margin-left: -15px;
 	margin-right: -15px;
 	font-size: 18px;
-	line-height: 1.33;
+	line-height: 0.33;
 	font-weight: 500;
 	letter-spacing: .1em;
 	text-transform: uppercase;
@@ -4268,7 +4299,7 @@ textarea.textarea-lg {
 
 @media (min-width: 1200px) {
 	.breadcrumbs-custom {
-		padding: 150px 0;
+		padding: 100px 0;
 	}
 }
 
@@ -4456,6 +4487,12 @@ textarea.textarea-lg {
 
 * + .contact-classic {
 	margin-top: 3px;
+}
+
+.footer-brand-rights {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .footer-brand + p {
@@ -5465,7 +5502,7 @@ textarea.textarea-lg {
 }
 
 .title-opacity-9 {
-	color: rgba(21, 21, 21, 0.09);
+	color: rgba(21, 21, 21, 0.5);
 }
 
 * + .heading-panel-subtitle {
@@ -6139,16 +6176,8 @@ h4 + .instafeed {
 	margin-bottom: 40px;
 }
 
-.row-50 {
-	margin-bottom: -50px;
-}
-
 .row-50:empty {
 	margin-bottom: 0;
-}
-
-.row-50 > * {
-	margin-bottom: 50px;
 }
 
 .row-60 {
@@ -7562,6 +7591,33 @@ html.tablet .ui-to-top {
 */
 .rd-navbar-static {
 	display: block;
+}
+
+.rd-nav-link-active {
+	position: relative;
+	padding-bottom: 5px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: #151515;
+    transition: .25s;
+	border-bottom: 3px solid #eb6e6e;
+	cursor: default;
+}
+
+.rd-nav-link-active:hover {
+	position: relative;
+	padding-bottom: 5px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: #151515;
+    transition: .25s;
+	border-bottom: 3px solid #eb6e6e;
 }
 
 .rd-navbar-static .rd-nav-item {
@@ -12298,6 +12354,7 @@ h1 + .tabs-line {
 	margin-bottom: 12px;
 	transform: translate3d(50%, 0, 0);
 	will-change: transform;
+	color: rgba(0, 0, 0, 0);
 }
 
 .progress-marker {
@@ -12328,6 +12385,14 @@ h1 + .tabs-line {
 
 .progress-orange .progress-marker {
 	background: #e7a855;
+}
+
+.progress-green .progress-bar-linear {
+	background: #50ba87;
+}
+
+.progress-green .progress-marker {
+	background: #50ba87;
 }
 
 * + .progress-bar-linear-wrap {
