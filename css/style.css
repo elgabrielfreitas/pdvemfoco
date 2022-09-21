@@ -96,7 +96,7 @@ html p a:hover {
 }
 
 .yellow {
-	background-color: yellow;
+	background-color: #FFFF00;
 }
 /*
 *
@@ -8889,7 +8889,7 @@ html.tablet .ui-to-top {
 .rd-navbar-fixed .rd-navbar-panel {
 	color: #151515;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-	background: yellow;
+	background-color: #FFFF00;
 	height: 75px;
 }
 
@@ -9377,7 +9377,7 @@ html.rd-navbar-fixed-linked .page {
 	position: relative;
 	padding-left: 15px;
 	padding-right: 15px;
-	background-color: yellow;
+	background-color: #FFFF00;
 }
 
 @media (min-width: 1600px) {
