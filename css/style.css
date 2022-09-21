@@ -87,6 +87,10 @@ figure {
 	margin-bottom: 0;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 html p a:hover {
 	text-decoration: none;
 }
