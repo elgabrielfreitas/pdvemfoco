@@ -790,7 +790,7 @@ html .group-middle {
 
 @media (min-width: 768px) {
 	html .group-middle {
-		justify-content: flex-start;
+		justify-content: center;
 	}
 }
 
@@ -7436,7 +7436,7 @@ html.tablet .ui-to-top {
 .rd-navbar-toggle span:after, .rd-navbar-toggle span:before, .rd-navbar-toggle span {
 	width: 24px;
 	height: 3px;
-	background-color: #151515;
+	background-color: #fff;
 	backface-visibility: hidden;
 	border-radius: 0;
 }
@@ -7609,7 +7609,7 @@ html.tablet .ui-to-top {
     line-height: 1.2;
     font-weight: 500;
     letter-spacing: 0;
-    color: #151515;
+    color: #fff;
     transition: .25s;
 	border-bottom: 3px solid #eb6e6e;
 	cursor: default;
@@ -7623,7 +7623,7 @@ html.tablet .ui-to-top {
     line-height: 1.2;
     font-weight: 500;
     letter-spacing: 0;
-    color: #151515;
+    color: gray;
     transition: .25s;
 	border-bottom: 3px solid #eb6e6e;
 }
@@ -7690,12 +7690,8 @@ html.tablet .ui-to-top {
 	line-height: 1.2;
 	font-weight: 500;
 	letter-spacing: 0;
-	color: #151515;
+	color: #fff;
 	transition: .25s;
-}
-
-.rd-navbar-static .rd-nav-link:hover {
-	color: #50ba87;
 }
 
 .rd-navbar-static .rd-menu {
@@ -7749,7 +7745,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-static .rd-dropdown-link:hover {
-	color: #151515;
+	color: white;
 }
 
 .rd-navbar-static .rd-navbar-dropdown li > a,
@@ -8297,7 +8293,7 @@ html.tablet .ui-to-top {
 	display: inline-block;
 	align-self: flex-end;
 	height: 3px;
-	background: #151515;
+	background: #fff;
 }
 
 .project-hamburger-arrow-top {
@@ -8891,6 +8887,8 @@ html.tablet .ui-to-top {
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 	background-color: #FFFF00;
 	height: 75px;
+	background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/2393570-black-modern-material-header-with-diagonal-silver-lines-banner-for-your-business-vector-abstract-widescreen-background-vetor.jpg);
+	background-repeat: no-repeat;
 }
 
 .rd-navbar-fixed .rd-navbar-nav-wrap {
@@ -9378,6 +9376,8 @@ html.rd-navbar-fixed-linked .page {
 	padding-left: 15px;
 	padding-right: 15px;
 	background-color: #FFFF00;
+	background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/2393570-black-modern-material-header-with-diagonal-silver-lines-banner-for-your-business-vector-abstract-widescreen-background-vetor.jpg);
+	background-repeat: no-repeat;
 }
 
 @media (min-width: 1600px) {
@@ -9557,7 +9557,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-nav-link:hover {
-	color: #151515;
+	color: #ffffff;
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-nav-link:hover::before {
