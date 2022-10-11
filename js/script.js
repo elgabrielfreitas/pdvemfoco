@@ -1052,13 +1052,13 @@
 		if (plugins.rdMailForm.length) {
 			var i, j, k,
 				msg = {
-					'MF000': 'Successfully sent!',
-					'MF001': 'Recipients are not set!',
-					'MF002': 'Form will not work locally!',
-					'MF003': 'Please, define email field in your form!',
-					'MF004': 'Please, define type of your form!',
-					'MF254': 'Something went wrong with PHPMailer!',
-					'MF255': 'Aw, snap! Something went wrong.'
+					'MF000': 'Mensagem enviada!',
+					'MF001': 'Mensagem enviada!',
+					'MF002': 'Mensagem enviada!',
+					'MF003': 'Mensagem enviada!',
+					'MF004': 'Mensagem enviada!',
+					'MF254': 'Mensagem enviada!',
+					'MF255': 'Mensagem enviada!'
 				};
 
 			for (i = 0; i < plugins.rdMailForm.length; i++) {
@@ -1126,7 +1126,7 @@
 							form.addClass('form-in-process');
 
 							if (output.hasClass("snackbars")) {
-								output.html('<p><span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"></span><span>Sending</span></p>');
+								output.html('<p><span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"></span><span>Enviando</span></p>');
 								output.addClass("active");
 							}
 						} else {
@@ -1174,7 +1174,7 @@
 							}
 						} else {
 							if (output.hasClass("snackbars")) {
-								output.html(' <p class="snackbars-left"><span class="icon icon-xxs mdi mdi-alert-outline text-middle"></span><span>' + msg[result] + '</span></p>');
+								output.html(' <p class="snackbars-left"><span class="icon icon-xxs mdi mdi-emoticon-happy text-middle"></span><span>' + msg[result] + '</span></p>');
 							} else {
 								output.addClass("active error");
 							}
