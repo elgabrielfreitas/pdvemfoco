@@ -8885,9 +8885,9 @@ html.tablet .ui-to-top {
 .rd-navbar-fixed .rd-navbar-panel {
 	color: #151515;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-	background-color: gray;
+	background-color: black;
 	height: 75px;
-	background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/2393570-black-modern-material-header-with-diagonal-silver-lines-banner-for-your-business-vector-abstract-widescreen-background-vetor.jpg);
+	background-image: url(https://raw.githubusercontent.com/elgabrielfreitas/pdvemfoco/main/images/background_header.jpg);
 	background-repeat: no-repeat;
 }
 
@@ -9375,8 +9375,8 @@ html.rd-navbar-fixed-linked .page {
 	position: relative;
 	padding-left: 15px;
 	padding-right: 15px;
-	background-color: gray;
-	background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/2393570-black-modern-material-header-with-diagonal-silver-lines-banner-for-your-business-vector-abstract-widescreen-background-vetor.jpg);
+	background-color: black;
+	background-image: url(https://raw.githubusercontent.com/elgabrielfreitas/pdvemfoco/main/images/background_header.jpg);
 	background-repeat: no-repeat;
 }
 
