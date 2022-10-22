@@ -9375,7 +9375,7 @@ html.rd-navbar-fixed-linked .page {
 	position: relative;
 	padding-left: 15px;
 	padding-right: 15px;
-	background-color: black;
+	background-color: gray;
 	background-image: url(/images/background_header.jpg);
 	background-repeat: no-repeat;
 }
