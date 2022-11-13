@@ -2,7 +2,7 @@
   "useSmtp": false,
   "host": "stmp.gmail.com",
   "port": 465,
-  "username": "bielfreitascontato@gmail.com",
-  "password": "Gabee2020",
-  "recipientEmail": "bielfreitascontato@gmail.com"
+  "username": "demo@gmail.com",
+  "password": "password",
+  "recipientEmail": "demo@gmail.com"
 }
