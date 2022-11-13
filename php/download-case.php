@@ -24,6 +24,6 @@
   //Enviar
   mail($destino, $assunto, $arquivo, $headers);
   
-  echo "<meta http-equiv='refresh' content='0;URL=../2.pdf'>";
+  echo "<meta http-equiv='refresh' content='0;URL=../modelo_pdf.pdf'>";
 
 ?>

@@ -8887,7 +8887,7 @@ html.tablet .ui-to-top {
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 	background-color: black;
 	height: 75px;
-	background-image: url(/images/background_header.jpg);
+	background-image: url(https://raw.githubusercontent.com/elgabrielfreitas/pdvemfoco/main/images/background_header.jpg);
 	background-repeat: no-repeat;
 }
 
@@ -9376,7 +9376,7 @@ html.rd-navbar-fixed-linked .page {
 	padding-left: 15px;
 	padding-right: 15px;
 	background-color: black;
-	background-image: url(/images/background_header.jpg);
+	background-image: url(https://raw.githubusercontent.com/elgabrielfreitas/pdvemfoco/main/images/background_header.jpg);
 	background-repeat: no-repeat;
 }
 
